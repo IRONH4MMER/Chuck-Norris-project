@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800;900&display=swap');
+
+h1 {
+    margin: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+#body {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+
+    display: flex;
+    align-items: center;
+
+    width: 1440px;
+    height: 59px;
+    left: 0px;
+    top: 0px;
+    background: #422ED4;
+}
+
+.logo {
+    /* logo */
+
+    margin-left: 160px;
+
+    width: 43px;
+    height: 43px;
+
+}
+
+.header__text {
+    /* Chuck Norris */
+
+    margin-left: 10px;
+    margin-bottom: 23.96px;
+
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.CategoryTitle {
+    /* title */
+
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+    width: 360px;
+    height: 59px;
+    left: 540px;
+    top: 119px;
+
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #1C1C39;
+}
+
+.JokeBox {
+    /* bg */
+
+    z-index: 1;
+
+    margin-top: 155px;
+
+    width: 1120px;
+    min-height: 162px;
+    left: 160px;
+    top: 614px;
+
+    /* blue */
+    background: #422ED4;
+    /* shadow/bg */
+    box-shadow: 0 100px 80px rgba(80, 76, 103, 0.07), 0 0 10.0172px rgba(80, 76, 103, 0.035);
+    border-radius: 25px;
+
+}
+
+.JokeBox > p {
+    /* The only thing Chuck Norris says on a job interview: “Hi, I’m Chuck Norris and I start tomorrow. Any questions?” */
+
+    margin-left: 25px;
+    margin-right: 25px;
+
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    color: #FFFFFF;
+
+}
+
+.ChuckImg {
+    /* clipart1131480 1 */
+
+    z-index: 0;
+
+    position: absolute;
+    width: 122px;
+    height: 258px;
+    left: 1134px;
+    top: 461px;
+
+    background: url(ChuckImg.png);
+
+}
+
+#categoriesBox {
+    width: 1140px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Category {
+    /* bg */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    width: 170px;
+    height: 57px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    box-shadow: 0px 2.7547414302825928px 10.017241477966309px 0px rgba(72, 70, 106, 0.035);
+
+    box-shadow: 0px 22px 80px 0px rgba(72, 70, 106, 0.07);
+
+    transition: 0.06s;
+
+}
+
+.Category {
+    /* animal */
+
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #1C1C39;
+
+}
+
+.Category:hover {
+    background: rgba(66, 46, 212, 1);
+    color: #FFFFFF;
+}
+
+.Category:active {
+    background: rgb(12, 5, 118);
+}
